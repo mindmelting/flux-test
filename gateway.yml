@@ -14,9 +14,6 @@ spec:
     app.kubernetes.io/part-of: ingress-nginx
   ports:
     - name: http
-      port: 80
-      targetPort: http
-    - name: http
       port: 3000
       targetPort: http
     - name: https
